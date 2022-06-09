@@ -1,9 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Ubuntu:wght@300&display=swap");
 
-body {
-  background-color: hsl(210, 100%, 65%);
-}
 
 #content {
   max-width: 960px;
@@ -18,6 +15,7 @@ body {
 }
 
 body {
+  background-color: hsl(210, 100%, 65%);
   font-size: 26px;
 }
 
