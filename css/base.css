@@ -7,16 +7,14 @@
   background-color: #d6efff;
 }
 
-
 body {
   background-color: hsl(210, 100%, 65%);
-  font-size: 26px;
 }
 
 header,
 main,
 footer {
-  max-width: 700px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
