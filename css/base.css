@@ -14,7 +14,6 @@ body {
 header,
 main,
 footer {
-  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -30,8 +29,8 @@ header {
 
 header img {
   align-items: left;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 main {
