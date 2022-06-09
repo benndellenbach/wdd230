@@ -8,11 +8,6 @@
   background-color: #d6efff;
 }
 
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   background-color: hsl(210, 100%, 65%);
@@ -33,11 +28,13 @@ header {
   background-color: rgb(118, 223, 249);
   display: grid;
   grid-template-columns: 200px 1fr;
-  align-items: center;
+  align-items: right;
 }
 
 header img {
-
+  align-items: left;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 main {
