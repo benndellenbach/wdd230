@@ -3,18 +3,21 @@
 
 
 #content {
+  max-width: 1160px;
   margin: 0 auto;
   background-color: #d6efff;
 }
 
+
 body {
   background-color: hsl(210, 100%, 65%);
+  font-size: 26px;
 }
 
 header,
 main,
 footer {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
