@@ -21,7 +21,7 @@ header {
   margin: 1rem auto;
   border: 1px solid #bbb;
   padding: 0.5rem;
-  background-color: #eee;
+  background-color: rgb(255, 0, 0);
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
