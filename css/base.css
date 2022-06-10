@@ -6,6 +6,7 @@
   max-width: 1160px;
   margin: 0 auto;
   background-color: #d6efff;
+  border-radius: 15px;
 }
 
 
@@ -30,12 +31,32 @@ header {
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: left;
+  border-radius: 15px;
 }
 
-header img {
-  align-items: right;
-  max-width: 400px;
-  max-height: 400px;
+.homepage-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.myname {
+  grid-column: 1/ 2;
+  grid-row: 1/ 3;
+
+}
+
+.profile{
+  grid-column: 4 / 6;
+  grid-row: 3/ 5;
+  margin: 25px 25px 10px 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  padding: 10px;
+  width: 80%;
+  height: 400px;
+  box-shadow: 5px 5px 5px rgb(0, 55, 255);;
 }
 
 main {
@@ -50,4 +71,5 @@ footer {
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
+  border-radius: 15px;
 }
