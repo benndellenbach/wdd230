@@ -22,28 +22,29 @@ footer {
 }
 
 header {
+  font-family: "Mochy Pop P One";
   margin: 1rem auto;
-  border: 1px solid rgb(0, 0, 0);
   padding: 0.5rem;
+  border: 1px solid rgb(0, 55, 255);
   background-color: rgb(118, 223, 249);
   display: grid;
   grid-template-columns: 200px 1fr;
-  align-items: right;
+  align-items: left;
 }
 
 header img {
-  align-items: left;
+  align-items: right;
   max-width: 400px;
   max-height: 400px;
 }
 
 main {
-
+  font-family: "Ubuntu";
 }
 
 footer {
   margin: 1rem auto;
-  border: 1px solid rgb(72, 253, 247);
+  border: 1px solid rgb(0, 55, 255);
   padding: 0.5rem;
   background-color: rgb(118, 223, 249);
   display: grid;
